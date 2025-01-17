@@ -4,7 +4,7 @@ from tqdm import tqdm
 import random
 
 # 初始化 OpenAI 客户端
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=API_KEY)
 
 # 文件路径
 output_file = "/mnt/data/users/Lang_Gao/proj/My_Proj/Fairness_Mechanisms/data/simply_good.txt"
