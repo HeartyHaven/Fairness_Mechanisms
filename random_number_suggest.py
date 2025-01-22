@@ -2,7 +2,7 @@ import openai
 from collections import Counter
 from tqdm import tqdm
 # 初始化 OpenAI API 客户端
-openai.api_key = "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"  # 替换为你的 API 密钥
+
 
 # 定义生成随机整数的函数
 def generate_sentence(client, prompt):
